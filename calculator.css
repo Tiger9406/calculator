@@ -7,6 +7,7 @@
 button{
     width: 100px;
     height:70px;
+    border-radius: 8px;
 }
 
 #delete-row{
@@ -22,9 +23,16 @@ button{
     flex-grow:1;
 }
 #calculator{
-    width:530px;
-    height:800px;
-    padding:50px;
+    width:480px;
+    height:650px;
+    padding:25px;
     box-sizing: border-box;
-    
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+#screen{
+    background-color: rgb(99, 122, 107);
+    height:150px;
+    border-radius: 10px;
 }
