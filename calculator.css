@@ -45,8 +45,11 @@ button{
 }
 #current{
     height:50px;
+    padding-bottom:30px;
     font-size:50px;
     margin:10px;
+    overflow:auto;
+    overflow-y:hidden;
 }
 
 #screen{
